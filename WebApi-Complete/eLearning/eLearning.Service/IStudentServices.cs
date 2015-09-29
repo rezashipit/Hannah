@@ -6,11 +6,11 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eLearning.Core.Services
+namespace eLearning.Service
 {
-    public interface IStudentServicesll
+    public interface IStudentServices
     {
-        void Create(Student entity);
+         void Create(Student entity);
         void Delete(Student entity);
 
         void Update(Student entity);

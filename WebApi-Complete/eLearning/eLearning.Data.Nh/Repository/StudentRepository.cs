@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace eLearning.Data.Nh.Repository
 {
-   public class StudentRepository:NhRepositoryBase<Student,int>,IStudentRepository
+   public class NhStudentRepository:NhRepositoryBase<Student,int>,IStudentRepository
     {
     }
 }
