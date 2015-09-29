@@ -6,19 +6,30 @@ using System.Threading.Tasks;
 
 namespace eLearning.Model.Entities
 {
-   public class Student:Entity<int>
+    public class Students : Entity<int>
     {
-        public Student()
+        public Students()
         {
             Enrollments = new List<Enrollment>();
         }
+        private Enums.Gender _Gender;
+
 
         public virtual string Email { get; set; }
         public virtual string UserName { get; set; }
         public virtual string Password { get; set; }
         public virtual string FirstName { get; set; }
         public virtual string LastName { get; set; }
-        public virtual Enums.Gender Gender { get; set; }
+        public virtual Enums.Gender Gender
+        {
+            get { return _Gender; }
+
+            set
+            {
+                _Gender = (Enums.Gender)value;
+            }
+
+        }
         public virtual DateTime DateOfBirth { get; set; }
         public virtual DateTime? RegistrationDate { get; set; }
         public virtual DateTime? LastLoginDate { get; set; }

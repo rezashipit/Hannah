@@ -9,7 +9,7 @@ using FluentNHibernate.Mapping;
 
 namespace eLearning.Data.Nh.Mapper
 {
-    public class StudentMapper : ClassMap<Student>
+    public class StudentMapper : ClassMap<Students>
     {
         public StudentMapper()
         {
@@ -17,7 +17,7 @@ namespace eLearning.Data.Nh.Mapper
             Map(x => x.Email).Not.Nullable();
             Map(x => x.LastLoginDate);
             Map(x => x.DateOfBirth);
-            Map(x => x.Gender);
+            Map(x => x.Gender).CustomType<int>();
             Map(x => x.LastName);
             Map(x => x.FirstName);
             Map(x => x.Password);

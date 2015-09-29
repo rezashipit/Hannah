@@ -7,32 +7,33 @@ using System.Linq.Expressions;
 using eLearning.Model.Entities;
 using eLearning.Core.Repository;
 using eLearning.Core.Services;
+using eLearning.Core.Attributes;
 
 namespace eLearning.Service.Services
 {
-    public class StudentService:IStudentServices
+    public class StudentService : IStudentServices
     {
         private readonly IStudentRepository _studentRepo;
         public StudentService(IStudentRepository studentRepo)
         {
-            _studentRepo = studentRepo; 
+            _studentRepo = studentRepo;
         }
-        public void Create(Student entity)
+        public void Create(Students entity)
         {
             _studentRepo.Add(entity);
         }
 
-        public void Delete(Student entity)
+        public void Delete(Students entity)
         {
             _studentRepo.Delete(entity);
         }
 
-        public void Update(Student entity)
+        public void Update(Students entity)
         {
             _studentRepo.Update(entity);
         }
-
-        public IQueryable<Student> Get(Expression<Func<Student, bool>> predication)
+        [UnitOfWork]
+        public virtual IQueryable<Students> Get(Expression<Func<Students, bool>> predication=null)
         {
             return _studentRepo.GetAll(predication);
         }

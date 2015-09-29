@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace eLearning.Core.Repository
 {
-   public interface IStudentRepository:IeLearningRepository<Student,int>
+   public interface IStudentRepository:IeLearningRepository<Students,int>
     {
     }
 }

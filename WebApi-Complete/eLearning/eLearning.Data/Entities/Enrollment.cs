@@ -10,11 +10,11 @@ namespace eLearning.Model.Entities
     {
         public Enrollment()
         {
-            Student = new Student();
+            Student = new Students();
             Course = new Course();
         }
         public virtual DateTime EnrollmentDate { get; set; }
-        public virtual Student Student { get; set; }
+        public virtual Students Student { get; set; }
         public virtual Course Course { get; set; }
     }
 }

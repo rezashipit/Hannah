@@ -1,4 +1,5 @@
-﻿using eLearning.Core.Services;
+﻿using eLearning.Core.Attributes;
+using eLearning.Core.Services;
 using eLearning.Service;
 using System;
 using System.Collections.Generic;
@@ -15,9 +16,10 @@ namespace eLearning.Web.Controllers
         {
             _studentServices = studentServices;
         }
-        public ActionResult Index()
+        [UnitOfWork]
+        public virtual ActionResult Index()
         {
-            var studentList = _studentServices.Get(x=>x.Id==1);
+            var studentList = _studentServices.Get().ToList();
             return View();
         }
     }

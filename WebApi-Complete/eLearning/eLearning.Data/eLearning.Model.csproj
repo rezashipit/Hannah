@@ -44,7 +44,7 @@
     <Compile Include="Entities\Course.cs" />
     <Compile Include="Entities\Enrollment.cs" />
     <Compile Include="Entities\IEntity.cs" />
-    <Compile Include="Entities\Student.cs" />
+    <Compile Include="Entities\Students.cs" />
     <Compile Include="Entities\Subject.cs" />
     <Compile Include="Entities\Tutor.cs" />
     <Compile Include="Enums\Gener.cs" />

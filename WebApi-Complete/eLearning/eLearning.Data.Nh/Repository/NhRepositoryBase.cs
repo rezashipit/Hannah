@@ -21,7 +21,7 @@ namespace eLearning.Data.Nh.Repository
 
         public IQueryable<T> Get(System.Linq.Expressions.Expression<Func<T, bool>> predicate)
         {
-            throw new NotImplementedException();
+            return Session.Query<T>().Where(predicate);
         }
 
         public T Get(P id)

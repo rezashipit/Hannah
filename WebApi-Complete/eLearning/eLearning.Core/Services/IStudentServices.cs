@@ -10,12 +10,12 @@ namespace eLearning.Core.Services
 {
     public interface IStudentServicesll
     {
-        void Create(Student entity);
-        void Delete(Student entity);
+        void Create(Students entity);
+        void Delete(Students entity);
 
-        void Update(Student entity);
+        void Update(Students entity);
 
-        IQueryable<Student> Get(Expression<Func<Student, bool>> predication);
+        IQueryable<Students> Get(Expression<Func<Students, bool>> predication);
 
     }
 }
