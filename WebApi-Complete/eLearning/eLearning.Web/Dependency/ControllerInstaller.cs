@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Http;
 using System.Web.Mvc;
 
 namespace eLearning.Web.Dependency
@@ -16,7 +17,7 @@ namespace eLearning.Web.Dependency
                 container.Register(
 
                     //All MVC controllers
-                    Classes.FromThisAssembly().BasedOn<IController>().LifestyleTransient()
+                    Classes.FromThisAssembly().BasedOn<ApiController>().LifestyleTransient()
 
                     );
             }

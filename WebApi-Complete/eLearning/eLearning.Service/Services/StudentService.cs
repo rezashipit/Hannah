@@ -32,10 +32,11 @@ namespace eLearning.Service.Services
         {
             _studentRepo.Update(entity);
         }
-        [UnitOfWork]
-        public virtual IQueryable<Students> Get(Expression<Func<Students, bool>> predication=null)
+        [UnitOfWorkAttribute]
+       public virtual IEnumerable<Students> Get(Expression<Func<Students, bool>> predication = null)
         {
             return _studentRepo.GetAll(predication);
+            
         }
     }
 }

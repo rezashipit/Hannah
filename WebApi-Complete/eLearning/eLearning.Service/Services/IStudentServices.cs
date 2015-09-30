@@ -7,7 +7,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eLearning.Service
+namespace eLearning.Service.Services
 {
     public interface IStudentServices
     {
@@ -16,7 +16,7 @@ namespace eLearning.Service
 
         void Update(Students entity);
       
-        IQueryable<Students> Get(Expression<Func<Students, bool>> predication=null);
+        IEnumerable<Students> Get(Expression<Func<Students, bool>> predication=null);
 
     }
 }

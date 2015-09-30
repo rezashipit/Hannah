@@ -1,5 +1,5 @@
 ﻿using eLearning.Core.Services;
-using eLearning.Service;
+using eLearning.Service.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;

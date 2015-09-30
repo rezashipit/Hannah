@@ -12,8 +12,8 @@ namespace eLearning.Core.Repository
     { }
     public interface IeLearningRepository<T,P> :IeLearningRepository where T:IEntity<P>
     { 
-        IQueryable<T> GetAll(Expression<Func<T, bool>> predicate=null);
-       IQueryable<T> Get(Expression<Func<T, bool>> predicate);
+        IEnumerable<T> GetAll(Expression<Func<T, bool>> predicate=null);
+       IEnumerable<T> Get(Expression<Func<T, bool>> predicate);
         T Get(P id);
         void Delete(T entity);
         void Delete(Expression<Func<T, bool>> predicate);
