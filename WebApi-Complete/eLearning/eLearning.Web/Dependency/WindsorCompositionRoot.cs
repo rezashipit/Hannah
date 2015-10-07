@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.Http.Controllers;
 using System.Web.Http.Dispatcher;
 
-namespace eLearning.Web.Dependency
+namespace Chaos.Web.Dependency
 {
     public class WindsorCompositionRoot : IHttpControllerActivator
     {

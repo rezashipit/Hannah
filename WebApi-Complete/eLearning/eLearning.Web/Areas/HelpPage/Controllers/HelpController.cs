@@ -1,9 +1,9 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using eLearning.Web.Areas.HelpPage.Models;
+using Chaos.Web.Areas.HelpPage.Models;
 
-namespace eLearning.Web.Areas.HelpPage.Controllers
+namespace Chaos.Web.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

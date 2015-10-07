@@ -4,39 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Linq.Expressions;
-using eLearning.Model.Entities;
-using eLearning.Core.Repository;
-using eLearning.Core.Services;
-using eLearning.Core.Attributes;
+using Chaos.Model.Entities;
+using Chaos.Core.Repository;
+using Chaos.Core.Services;
+using Chaos.Core.Attributes;
 
-namespace eLearning.Service.Services
+namespace Chaos.Service.Services
 {
-    public class StudentService : IStudentServices
+    public class StudentService : ServiceBase<Students,int>,IStudentService
     {
         private readonly IStudentRepository _studentRepo;
         public StudentService(IStudentRepository studentRepo)
         {
-            _studentRepo = studentRepo;
-        }
-        public void Create(Students entity)
-        {
-            _studentRepo.Add(entity);
-        }
-
-        public void Delete(Students entity)
-        {
-            _studentRepo.Delete(entity);
-        }
-
-        public void Update(Students entity)
-        {
-            _studentRepo.Update(entity);
-        }
-        [UnitOfWorkAttribute]
-       public virtual IEnumerable<Students> Get(Expression<Func<Students, bool>> predication = null)
-        {
-            return _studentRepo.GetAll(predication);
-            
+            repo = studentRepo;
         }
     }
 }

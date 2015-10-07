@@ -1,8 +1,8 @@
 ﻿using Castle.MicroKernel.Resolvers.SpecializedResolvers;
 using Castle.Windsor;
 using Castle.Windsor.Installer;
-using eLearning.Dependency;
-using eLearning.Web.Dependency;
+using Chaos.Dependency;
+using Chaos.Web.Dependency;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +12,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace eLearning.Web
+namespace Chaos.Web
 {
     public class WebApiApplication : System.Web.HttpApplication
     {

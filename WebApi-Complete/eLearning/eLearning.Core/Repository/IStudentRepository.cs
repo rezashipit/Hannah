@@ -1,14 +1,14 @@
-﻿using eLearning.Model.Entities;
-using eLearning.Core.Repository;
+﻿using Chaos.Model.Entities;
+using Chaos.Core.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eLearning.Core.Repository
+namespace Chaos.Core.Repository
 {
-   public interface IStudentRepository:IeLearningRepository<Students,int>
+   public interface IStudentRepository:IChaosRepository<Students,int>
     {
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eLearning.Model.Entities
+namespace Chaos.Model.Entities
 {
     public interface IEntity<TPKey>
     {

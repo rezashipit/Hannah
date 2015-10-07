@@ -1,4 +1,4 @@
-﻿using eLearning.Model.Entities;
+﻿using Chaos.Model.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using NHibernate;
 using FluentNHibernate.Mapping;
 
-namespace eLearning.Data.Nh.Mapper
+namespace Chaos.Data.Nh.Mapper
 {
     public class StudentMapper : ClassMap<Students>
     {

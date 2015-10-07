@@ -1,6 +1,6 @@
-﻿using eLearning.Data.Nh.UnitOfWork;
-using eLearning.Model.Entities;
-using eLearning.Core.Repository;
+﻿using Chaos.Data.Nh.UnitOfWork;
+using Chaos.Model.Entities;
+using Chaos.Core.Repository;
 using NHibernate;
 using System;
 using System.Collections.Generic;
@@ -8,11 +8,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NHibernate.Linq;
-using eLearning.Core.Attributes;
+using Chaos.Core.Attributes;
 
-namespace eLearning.Data.Nh.Repository
+namespace Chaos.Data.Nh.Repository
 {
-   public abstract class NhRepositoryBase<T,P>:IeLearningRepository<T,P> where T:Entity<P>
+   public abstract class NhRepositoryBase<T,P>:IChaosRepository<T,P> where T:Entity<P>
     {
        protected ISession Session { get { return NhUnitOfWork.Current.Session; } }
        [UnitOfWorkAttribute]

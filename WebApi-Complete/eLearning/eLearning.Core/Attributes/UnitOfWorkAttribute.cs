@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eLearning.Core.Attributes
+namespace Chaos.Core.Attributes
 {
     [AttributeUsage(AttributeTargets.Method)]
     public class UnitOfWorkAttribute : Attribute

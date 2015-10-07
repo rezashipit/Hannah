@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Chaos.Data.Nh.Repository
+namespace Chaos.Core.Repository
 {
-   public class NhStudentRepository:NhRepositoryBase<Students,int>,IStudentRepository
+    public interface IPassengerRepository:IChaosRepository<Passenger,int>
     {
     }
 }

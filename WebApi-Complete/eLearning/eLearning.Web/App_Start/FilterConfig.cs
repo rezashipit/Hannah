@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace eLearning.Web
+namespace Chaos.Web
 {
     public class FilterConfig
     {

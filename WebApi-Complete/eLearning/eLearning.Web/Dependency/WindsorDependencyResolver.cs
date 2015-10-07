@@ -8,7 +8,7 @@ using System.Web.Http;
 using System.Web.Http.Dependencies;
 using Castle.MicroKernel.Lifestyle;
 
-namespace eLearning.Web.Dependency
+namespace Chaos.Web.Dependency
 {
     public class WindsorDependencyResolver : IDependencyResolver
     {

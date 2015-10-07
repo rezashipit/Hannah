@@ -50,17 +50,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\eLearning.Data.Nh\eLearning.Data.Nh.csproj">
+    <ProjectReference Include="..\eLearning.Data.Nh\Chaos.Data.Nh.csproj">
       <Project>{fecd8ca1-504b-431c-a054-a6871398f077}</Project>
-      <Name>eLearning.Data.Nh</Name>
+      <Name>Chaos.Data.Nh</Name>
     </ProjectReference>
-    <ProjectReference Include="..\eLearning.Data\eLearning.Model.csproj">
+    <ProjectReference Include="..\eLearning.Data\Chaos.Model.csproj">
       <Project>{a175bba8-119d-4a29-b63e-6f16d1bf9871}</Project>
-      <Name>eLearning.Model</Name>
+      <Name>Chaos.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\eLearning.Service\eLearning.Service.csproj">
+    <ProjectReference Include="..\eLearning.Service\Chaos.Service.csproj">
       <Project>{760a48e3-05a1-447f-a3cd-f12356f678b2}</Project>
-      <Name>eLearning.Service</Name>
+      <Name>Chaos.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

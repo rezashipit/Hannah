@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eLearning.Model", "eLearning.Data\eLearning.Model.csproj", "{A175BBA8-119D-4A29-B63E-6F16D1BF9871}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chaos.Model", "eLearning.Data\Chaos.Model.csproj", "{A175BBA8-119D-4A29-B63E-6F16D1BF9871}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eLearning.Data.EF", "eLearning.Data.EF\eLearning.Data.EF.csproj", "{556CC0C8-1EC8-433C-ABDB-44FF64A16C55}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{398BB9DC-8FE3-4984-99DB-EC0623B92E7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eLearning.Data.Nh", "eLearning.Data.Nh\eLearning.Data.Nh.csproj", "{FECD8CA1-504B-431C-A054-A6871398F077}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chaos.Data.Nh", "eLearning.Data.Nh\Chaos.Data.Nh.csproj", "{FECD8CA1-504B-431C-A054-A6871398F077}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eLearning.Service", "eLearning.Service\eLearning.Service.csproj", "{760A48E3-05A1-447F-A3CD-F12356F678B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chaos.Service", "eLearning.Service\Chaos.Service.csproj", "{760A48E3-05A1-447F-A3CD-F12356F678B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eLearning.Core", "eLearning.Core\eLearning.Core.csproj", "{CA5E3170-4287-4050-8D9B-7278D57F05B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chaos.Core", "eLearning.Core\Chaos.Core.csproj", "{CA5E3170-4287-4050-8D9B-7278D57F05B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eLearning.Web", "eLearning.Web\eLearning.Web.csproj", "{B707F832-CE5B-46F3-9651-938CE781F0D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chaos.Web", "eLearning.Web\Chaos.Web.csproj", "{B707F832-CE5B-46F3-9651-938CE781F0D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eLearning.Dependency", "eLearning.Dependency\eLearning.Dependency.csproj", "{A4ADC5C4-13E4-4F0B-ADC9-0C3F3EEA8D4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chaos.Dependency", "eLearning.Dependency\Chaos.Dependency.csproj", "{A4ADC5C4-13E4-4F0B-ADC9-0C3F3EEA8D4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

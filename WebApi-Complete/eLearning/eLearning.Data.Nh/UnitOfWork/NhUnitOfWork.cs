@@ -1,5 +1,5 @@
 ﻿
-using eLearning.Core.UnitOfWork;
+using Chaos.Core.UnitOfWork;
 using NHibernate;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eLearning.Data.Nh.UnitOfWork
+namespace Chaos.Data.Nh.UnitOfWork
 {
     public class NhUnitOfWork : IUnitOfWork
     {

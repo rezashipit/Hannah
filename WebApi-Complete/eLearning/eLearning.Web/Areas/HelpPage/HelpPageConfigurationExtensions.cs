@@ -7,9 +7,9 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Description;
-using eLearning.Web.Areas.HelpPage.Models;
+using Chaos.Web.Areas.HelpPage.Models;
 
-namespace eLearning.Web.Areas.HelpPage
+namespace Chaos.Web.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {

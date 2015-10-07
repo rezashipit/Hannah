@@ -1,4 +1,4 @@
-﻿using eLearning.Model.Entities;
+﻿using Chaos.Model.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,16 +6,22 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eLearning.Core.Services
+namespace Chaos.Core.Services
 {
-    public interface IStudentServicesll
+    public interface IChaosService
+    { }
+    public interface IChaosService<T,P>:IChaosService
     {
-        void Create(Students entity);
-        void Delete(Students entity);
+        void Create(T entity);
+        void Delete(T entity);
 
-        void Update(Students entity);
+        void Update(T entity);
 
-        IQueryable<Students> Get(Expression<Func<Students, bool>> predication);
+        IList<T> Get(Expression<Func<T, bool>> predication);
+
+    }
+    public interface IStudentService : IChaosService<Students,int>
+    {
 
     }
 }

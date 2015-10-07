@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eLearning.Core.UnitOfWork
+namespace Chaos.Core.UnitOfWork
 {
    public interface IUnitOfWork
     {

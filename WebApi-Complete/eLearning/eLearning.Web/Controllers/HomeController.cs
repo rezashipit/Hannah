@@ -1,17 +1,17 @@
-﻿using eLearning.Core.Services;
-using eLearning.Service.Services;
+﻿using Chaos.Core.Services;
+using Chaos.Service.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace eLearning.Web.Controllers
+namespace Chaos.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IStudentServices _studentServices;
-        public HomeController(IStudentServices studentServices)
+        private readonly IStudentService _studentServices;
+        public HomeController(IStudentService studentServices)
         {
             _studentServices = studentServices;
         }

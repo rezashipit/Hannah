@@ -11,7 +11,7 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>eLearning.Web</RootNamespace>
+    <RootNamespace>Chaos.Web</RootNamespace>
     <AssemblyName>eLearning.Web</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
@@ -147,6 +147,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PassengerController.cs" />
     <Compile Include="Controllers\StudentController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Dependency\ControllerInstaller.cs" />
@@ -202,25 +203,25 @@
     <Content Include="Views\Student\StudentList.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\eLearning.Core\eLearning.Core.csproj">
+    <ProjectReference Include="..\eLearning.Core\Chaos.Core.csproj">
       <Project>{ca5e3170-4287-4050-8d9b-7278d57f05b8}</Project>
-      <Name>eLearning.Core</Name>
+      <Name>Chaos.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\eLearning.Data.Nh\eLearning.Data.Nh.csproj">
+    <ProjectReference Include="..\eLearning.Data.Nh\Chaos.Data.Nh.csproj">
       <Project>{fecd8ca1-504b-431c-a054-a6871398f077}</Project>
-      <Name>eLearning.Data.Nh</Name>
+      <Name>Chaos.Data.Nh</Name>
     </ProjectReference>
-    <ProjectReference Include="..\eLearning.Data\eLearning.Model.csproj">
+    <ProjectReference Include="..\eLearning.Data\Chaos.Model.csproj">
       <Project>{a175bba8-119d-4a29-b63e-6f16d1bf9871}</Project>
-      <Name>eLearning.Model</Name>
+      <Name>Chaos.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\eLearning.Dependency\eLearning.Dependency.csproj">
+    <ProjectReference Include="..\eLearning.Dependency\Chaos.Dependency.csproj">
       <Project>{a4adc5c4-13e4-4f0b-adc9-0c3f3eea8d4c}</Project>
-      <Name>eLearning.Dependency</Name>
+      <Name>Chaos.Dependency</Name>
     </ProjectReference>
-    <ProjectReference Include="..\eLearning.Service\eLearning.Service.csproj">
+    <ProjectReference Include="..\eLearning.Service\Chaos.Service.csproj">
       <Project>{760a48e3-05a1-447f-a3cd-f12356f678b2}</Project>
-      <Name>eLearning.Service</Name>
+      <Name>Chaos.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

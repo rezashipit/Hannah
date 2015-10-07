@@ -8,7 +8,7 @@ using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
 
-namespace eLearning.Web.Dependency
+namespace Chaos.Web.Dependency
 {
         public class ControllerInstaller : IWindsorInstaller
         {

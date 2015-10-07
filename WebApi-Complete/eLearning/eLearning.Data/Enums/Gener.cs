@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eLearning.Model.Enums
+namespace Chaos.Model.Enums
 {
    public enum Gender
     {

@@ -1,4 +1,4 @@
-﻿using Chaos.Core.Repository;
+﻿using Chaos.Data.Nh.Repository;
 using Chaos.Model.Entities;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Chaos.Data.Nh.Repository
 {
-   public class NhStudentRepository:NhRepositoryBase<Students,int>,IStudentRepository
+    public class PassengerRepository:NhRepositoryBase<Passenger,int>
     {
     }
 }

@@ -1,7 +1,7 @@
 using System.Web.Http;
 using System.Web.Mvc;
 
-namespace eLearning.Web.Areas.HelpPage
+namespace Chaos.Web.Areas.HelpPage
 {
     public class HelpPageAreaRegistration : AreaRegistration
     {
