@@ -43,10 +43,13 @@
   <ItemGroup>
     <Compile Include="Entities\Course.cs" />
     <Compile Include="Entities\Enrollment.cs" />
+    <Compile Include="Entities\ExceptionDay.cs" />
     <Compile Include="Entities\IEntity.cs" />
     <Compile Include="Entities\Passenger.cs" />
+    <Compile Include="Entities\Prefrence.cs" />
     <Compile Include="Entities\Students.cs" />
     <Compile Include="Entities\Subject.cs" />
+    <Compile Include="Entities\TravelTime.cs" />
     <Compile Include="Entities\Tutor.cs" />
     <Compile Include="Enums\Gener.cs" />
     <Compile Include="Model\PassengerModel.cs" />
